@@ -1,0 +1,2 @@
+# Show the Inactive Users in powershell
+Search-ADAccount -Accountinactive -TimeSpan 60 -Usersonly | Select name,lastlogondate
